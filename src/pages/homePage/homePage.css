@@ -1,0 +1,14 @@
+@import "../../styles/variables.css";
+
+.wrapper {
+    background-color: var(--color-background);
+    display: flex;
+    width: 1440px;
+    min-height: 100vh;
+    margin: 0 auto;
+}
+
+.inner {
+    width: 970px;
+    padding: 0 27px 0 30px;
+}
