@@ -1,0 +1,6 @@
+@import "../../styles/variables.css";
+
+.right-panel {
+    background-color: var(--color-dark-white);
+    width: 108px;
+}
