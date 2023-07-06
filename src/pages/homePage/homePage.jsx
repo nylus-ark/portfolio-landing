@@ -14,8 +14,8 @@ export const HomePage = () => {
             <Information />
             <div className="inner">
                 <Header />
-                <WorkHistory />
-                <WorkHistory />
+                <WorkHistory name="education" />
+                <WorkHistory name="work" />
                 <Portfolio />
                 <Contacts />
                 <Footer />
