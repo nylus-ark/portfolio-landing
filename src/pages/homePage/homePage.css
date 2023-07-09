@@ -12,6 +12,7 @@
     display: grid;
     grid-gap: 70px;
     grid-auto-flow: row;
-    width: 970px;
+    width: 100%;
+    max-width: 970px;
     padding: 0 27px 0 30px;
 }
