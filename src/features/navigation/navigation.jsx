@@ -1,9 +1,10 @@
 import React from 'react';
 import { Link } from 'react-scroll';
-import HomeIcon from './images/home.svg';
-import CVIcon from './images/cv.svg';
-import PortfolioIcon from './images/portfolio.svg';
-import ContactIcon from './images/contact.svg';
+
+import { ReactComponent as HomeIcon } from './icons/home.svg';
+import { ReactComponent as CVIcon } from './icons/cv.svg';
+import { ReactComponent as PortfolioIcon } from './icons/portfolio.svg';
+import { ReactComponent as ContactIcon } from './icons/contact.svg';
 
 import './navigation.css';
 
@@ -12,35 +13,43 @@ export const Navigation = () => {
         <nav className="navigation">
             <Link 
                 className="item"
-                activeClass="active" 
-                to="home" 
-                smooth={true} 
+                to="home"
+                activeClass="active"
+                smooth={true}
+                offset={0}
+                spy={true}
                 duration={500}>
-                <img src={HomeIcon} alt="Home Icon" />
+                <HomeIcon className="navigation-icon" />
             </Link>
             <Link 
                 className="item"
-                activeClass="active" 
-                to="education" 
-                smooth={true} 
+                to="education"
+                activeClass="active"
+                smooth={true}
+                offset={0}
+                spy={true}
                 duration={500}>
-                <img src={CVIcon} alt="CV Icon" />
+                <CVIcon className="navigation-icon" />
             </Link>
             <Link 
                 className="item"
-                activeClass="active" 
-                to="portfolio" 
-                smooth={true} 
+                to="portfolio"
+                activeClass="active"
+                smooth={true}
+                offset={-300}
+                spy={true}
                 duration={500}>
-                <img src={PortfolioIcon} alt="Portfolio Icon" />
+                <PortfolioIcon className="navigation-icon" />
             </Link>
             <Link 
                 className="item"
-                activeClass="active" 
-                to="contacts" 
-                smooth={true} 
+                to="contacts"
+                activeClass="active"
+                smooth={true}
+                offset={-200}
+                spy={true}
                 duration={500}>
-                <img src={ContactIcon} alt="Contact Icon" />
+                <ContactIcon className="navigation-icon" />
             </Link>
         </nav>
     );

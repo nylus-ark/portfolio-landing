@@ -18,8 +18,26 @@
     cursor: pointer;
     width: 40px;
     height: 40px;
+    transition: background-color 0.3s ease;
+
+    &.active {
+        background-color: var(--color-yellow);
+    }
+
+    &.active .navigation-icon {
+        fill: var(--color-black);
+    }
 }
 
 .item:hover {
     background-color: var(--color-yellow);
+}
+
+.navigation-icon {
+    fill: var(--color-paragraph);
+    transition: fill 0.3s ease;
+}
+
+.item:hover .navigation-icon {
+    fill: var(--color-black);
 }

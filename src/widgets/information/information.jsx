@@ -1,4 +1,5 @@
 import React from 'react';
+
 import './information.css';
 
 export const Information = () => {

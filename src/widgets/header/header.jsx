@@ -5,10 +5,9 @@ import AvatarImage from './images/avatar-full@1x.png';
 import AvatarImage2x from './images/avatar-full@2x.png';
 import AvatarImageWebp from './images/avatar-full@1x.webp';
 import AvatarImageWebp2x from './images/avatar-full@2x.webp';
+import { HireButton } from '../../features/hireButton/hireButton';
 
 import './header.css';
-
-import { HireButton } from '../../features/hireButton/hireButton';
 
 export const Header = () => {
     return (
