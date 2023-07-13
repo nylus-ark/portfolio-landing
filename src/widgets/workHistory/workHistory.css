@@ -1,7 +1,11 @@
 @import "../../styles/variables.css";
 
-.work-history {
+.title-info {
+    max-width: 438px;
+    margin: 0 auto 50px;
+}
+
+.main-info {
     background-color: var(--color-white);
-    width: 100%;
-    min-height: 630px;
+    padding: 51px 37px;
 }
