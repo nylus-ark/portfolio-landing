@@ -41,3 +41,8 @@
 .item:hover .navigation-icon {
     fill: var(--color-black);
 }
+
+div.react-tooltip {
+    font-size: 12px;
+    padding: 5px 15px;
+}
