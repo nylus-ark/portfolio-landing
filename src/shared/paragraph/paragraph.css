@@ -2,8 +2,6 @@
 
 .paragraph {
     color: var(--paragraph);
-    font-size: 15px;
-    line-height: 1.6;
     text-transform: capitalize;
     margin: 0;
 }
