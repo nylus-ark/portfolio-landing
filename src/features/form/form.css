@@ -1,0 +1,8 @@
+.contact-form {
+    display: grid;
+    grid-auto-flow: row;
+    grid-gap: 25px;
+    justify-items: start;
+    background-color: #fff;
+    padding: 25px;
+}
