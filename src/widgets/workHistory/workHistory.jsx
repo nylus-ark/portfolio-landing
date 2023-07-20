@@ -22,7 +22,7 @@ export const WorkHistory = ({ name, data }) => {
             className="work-history"
             name={name}>
             <div className="title-info">
-                <HeaderSecondary header={data.header} />
+                <HeaderSecondary align="center" header={data.header} />
                 <Paragraph align="center" text={data.summary} />
             </div>
             

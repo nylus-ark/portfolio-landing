@@ -1,0 +1,38 @@
+@import "../../styles/variables.css";
+
+.field-container {
+    display: grid;
+    grid-auto-flow: row;
+    grid-gap: 8px;
+    width: 100%;
+}
+
+.field {
+    background-color: var(--color-background);
+    border: 2px solid transparent;
+    border-radius: 0;
+    font-size: 16px;
+    padding: 16px;
+    transition: border-color 0.2s ease-in;
+
+    &.textarea {
+        min-height: 210px;
+    }
+
+    &.error {
+        border: 2px solid #eb3617;
+    }
+}
+
+.field-label {
+    color: var(--color-paragraph);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.2;
+    text-transform: capitalize;
+}
+
+.field-error {
+    color: #eb3617;
+    font-size: 14px;
+}
