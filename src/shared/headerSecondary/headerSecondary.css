@@ -11,3 +11,7 @@
 .header-center {
     text-align: center;
 }
+
+.header-mb-2x {
+    margin: 0 0 50px;
+}

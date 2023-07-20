@@ -17,10 +17,11 @@
 
     &.textarea {
         min-height: 210px;
+        resize: none;
     }
 
     &.error {
-        border: 2px solid #eb3617;
+        border: 2px solid var(--color-red);
     }
 }
 
@@ -33,6 +34,6 @@
 }
 
 .field-error {
-    color: #eb3617;
+    color: var(--color-red);
     font-size: 14px;
 }

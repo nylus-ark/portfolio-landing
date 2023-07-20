@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import { validateForm } from '../../shared/helpers/validateForm';
 import { Input, Textarea } from '../../shared/fields/fields';
 import { Button } from '../button/button';
+import { HeaderSecondary } from '../../shared/headerSecondary/headerSecondary';
 
 import './form.css';
 
@@ -43,46 +44,52 @@ export const Form = () => {
     }
 
     return (
-        <form 
-            className="contact-form"
-            onSubmit={handleSubmit}>
-            <Input 
-                id="inputName"
-                type="text"
-                name="name" 
-                value={formData.name}
-                onChange={handleChange}   
-                error={errors.name} 
-                label="Your Full Name ( Required)"
-            />
-            <Input 
-                id="inputEmail"
-                type="email"
-                name="email" 
-                value={formData.email}
-                onChange={handleChange}   
-                error={errors.email} 
-                label="Your Email ( Required)"
-            />
-            <Input 
-                id="inputSubject"
-                type="text"
-                name="subject" 
-                value={formData.subject}
-                onChange={handleChange}   
-                label="Subject"
-            />
-            <Textarea
-                id="textareaMessage"
-                name="message" 
-                value={formData.message}
-                onChange={handleChange}   
-                label="Your Message"    
-            />
-            <Button 
-                type="submit" 
-                text="Send message" 
-            />
-        </form> 
+        <div className="form-container">
+            <HeaderSecondary header="Leave us your info" margin="bottom-2x" />
+            <form 
+                className="contact-form"
+                onSubmit={handleSubmit}
+                method="POST"
+                action="">
+                <Input 
+                    id="inputName"
+                    type="text"
+                    name="name" 
+                    value={formData.name}
+                    onChange={handleChange}   
+                    error={errors.name} 
+                    label="Your Full Name ( Required)"
+                />
+                <Input 
+                    id="inputEmail"
+                    type="email"
+                    name="email" 
+                    value={formData.email}
+                    onChange={handleChange}   
+                    error={errors.email} 
+                    label="Your Email ( Required)"
+                />
+                <Input 
+                    id="inputSubject"
+                    type="text"
+                    name="subject" 
+                    value={formData.subject}
+                    onChange={handleChange}   
+                    label="Subject"
+                />
+                <Textarea
+                    id="textareaMessage"
+                    name="message" 
+                    value={formData.message}
+                    onChange={handleChange}   
+                    label="Your Message"    
+                />
+                <Button 
+                    type="submit" 
+                    text="Send message" 
+                />
+            </form> 
+        </div>
+        
     );
 };
