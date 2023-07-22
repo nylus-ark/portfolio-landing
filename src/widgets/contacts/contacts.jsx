@@ -1,7 +1,9 @@
 import React from 'react';
 import { Element } from 'react-scroll';
-import { HeaderSecondary } from '../../shared/headerSecondary/headerSecondary';
+
 import { Form } from '../../features/form/form';
+import { ContactInfo } from '../../features/contactInfo/contactInfo';
+import { CONTACTS } from '../../constans/contactInfo';
 
 import './contacts.css';
 
@@ -10,10 +12,8 @@ export const Contacts = () => {
         <Element 
             className="contacts" 
             name="contacts">
-            <div className="form-container">
-                <HeaderSecondary header="Leave us your info" />
-                <Form />
-            </div>
+            <Form />
+            <ContactInfo data={CONTACTS} />
         </Element>
     );
 }

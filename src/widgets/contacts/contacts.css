@@ -1,14 +1,6 @@
 @import "../../styles/variables.css";
 
-
 .contacts {
     display: flex;
     justify-content: space-between;
-} 
-
-
-.form-container {
-    min-width: 200px;
-    width: 100%;
-    max-width: 570px;
 }

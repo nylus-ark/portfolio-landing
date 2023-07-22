@@ -1,8 +1,16 @@
+@import "../../styles/variables.css";
+
+.form-container {
+    min-width: 200px;
+    width: 100%;
+    max-width: 570px;
+}
+
 .contact-form {
     display: grid;
     grid-auto-flow: row;
     grid-gap: 25px;
     justify-items: start;
-    background-color: #fff;
+    background-color: var(--color-white);
     padding: 25px;
 }
