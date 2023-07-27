@@ -1,0 +1,26 @@
+@import "../../styles/variables.css";
+
+.information-about-item {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 0 0 10px;
+
+    &:last-child {
+        margin: 0;
+    }
+}
+
+.information-about-label {
+    background: var(--color-yellow);
+    padding: 0 5px;
+    color: var(--color-black);
+}
+
+.information-about-value {
+    color: var(--color-black);
+
+    &.available {
+        color: var(--color-available);
+    }
+}

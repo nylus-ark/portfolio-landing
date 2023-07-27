@@ -1,0 +1,50 @@
+@import "../../styles/variables.css";
+
+.information-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.information-profile-avatar {
+    margin: 0 0 31px;
+    position: relative;
+
+    &.available::after {
+        content: "";
+        background-color: var(--color-available);
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+        width: 16px;
+        height: 16px;
+        border-radius: 50%;
+        position: absolute;
+        right: 10px;
+        bottom: 15px;
+    }
+}
+
+.information-profile-title {
+    color: var(--color-black);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.2;
+    margin: 0 0 15px;
+}
+
+.information-profile-position {
+    text-transform: capitalize;
+    margin: 0 0 15px;
+}
+
+.information-profile-social {
+    width: 100%;
+}
+
+.information-profile-links {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
