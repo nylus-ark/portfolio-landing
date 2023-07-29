@@ -1,9 +1,0 @@
-@import "../../styles/variables.css";
-
-.header-tertiary {
-    color: var(--color-black);
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 1.2;
-    text-transform: capitalize;
-}
