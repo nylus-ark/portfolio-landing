@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-portfolio-landing/static/css/main.9f880ab1.css",
-    "main.js": "/react-portfolio-landing/static/js/main.9e823570.js",
+    "main.css": "/react-portfolio-landing/static/css/main.10e76f36.css",
+    "main.js": "/react-portfolio-landing/static/js/main.e5985c06.js",
     "static/media/avatar-full@2x.png": "/react-portfolio-landing/static/media/avatar-full@2x.5dddbfd2744f1aa8b572.png",
     "static/media/avatar-full@2x.webp": "/react-portfolio-landing/static/media/avatar-full@2x.d256c5a6952a29a75c86.webp",
     "static/media/inter-bold.woff": "/react-portfolio-landing/static/media/inter-bold.1e547cd04bfe2dae1f98.woff",
@@ -10,8 +10,17 @@
     "static/media/inter-regular.woff": "/react-portfolio-landing/static/media/inter-regular.0d6f7c99e635f1fec4c9.woff",
     "static/media/inter-bold.woff2": "/react-portfolio-landing/static/media/inter-bold.c08e610806161507e8e3.woff2",
     "static/media/inter-medium.woff2": "/react-portfolio-landing/static/media/inter-medium.01f03178adde434fc9fa.woff2",
+    "static/media/portfolio-img-07.jpg": "/react-portfolio-landing/static/media/portfolio-img-07.0d0306d9bf5a13247615.jpg",
     "static/media/inter-regular.woff2": "/react-portfolio-landing/static/media/inter-regular.bd097ceff83f90802a12.woff2",
+    "static/media/portfolio-img-09.jpg": "/react-portfolio-landing/static/media/portfolio-img-09.e43ea6aefea5e0fb39ec.jpg",
+    "static/media/portfolio-img-08.jpg": "/react-portfolio-landing/static/media/portfolio-img-08.8d0b0865185fe7fea03b.jpg",
+    "static/media/portfolio-img-01.jpg": "/react-portfolio-landing/static/media/portfolio-img-01.c3d215cfccd58b5bdc41.jpg",
+    "static/media/portfolio-img-06.jpg": "/react-portfolio-landing/static/media/portfolio-img-06.acb5e01a3c604e112d79.jpg",
+    "static/media/portfolio-img-04.jpg": "/react-portfolio-landing/static/media/portfolio-img-04.3f7669d852a845dd756b.jpg",
+    "static/media/portfolio-img-05.jpg": "/react-portfolio-landing/static/media/portfolio-img-05.4f5c3f56f585131e447f.jpg",
     "static/media/avatar-full@1x.webp": "/react-portfolio-landing/static/media/avatar-full@1x.b2eac94996bd1d3c277b.webp",
+    "static/media/portfolio-img-03.jpg": "/react-portfolio-landing/static/media/portfolio-img-03.1612b9ceb2c12925c02d.jpg",
+    "static/media/portfolio-img-02.jpg": "/react-portfolio-landing/static/media/portfolio-img-02.92a856ff7d36bceed299.jpg",
     "static/media/profile-avatar.png": "/react-portfolio-landing/static/media/profile-avatar.20a421261ec3ff4d3e12.png",
     "static/media/instagram.svg": "/react-portfolio-landing/static/media/instagram.06aac97997cb6e2884fc3c6a8f598a1f.svg",
     "static/media/dribbble.svg": "/react-portfolio-landing/static/media/dribbble.85eb5368f80ae4a61897125dac558767.svg",
@@ -31,11 +40,11 @@
     "static/media/arrow.svg": "/react-portfolio-landing/static/media/arrow.13ad1d7007fd6815ac86978d7f533ab8.svg",
     "static/media/arrow-hover.svg": "/react-portfolio-landing/static/media/arrow-hover.36dc3acaff28551df432c562b6b7640f.svg",
     "static/media/squares.svg": "/react-portfolio-landing/static/media/squares.1a072a15fe270f857e4fcb73264fe1bc.svg",
-    "main.9f880ab1.css.map": "/react-portfolio-landing/static/css/main.9f880ab1.css.map",
-    "main.9e823570.js.map": "/react-portfolio-landing/static/js/main.9e823570.js.map"
+    "main.10e76f36.css.map": "/react-portfolio-landing/static/css/main.10e76f36.css.map",
+    "main.e5985c06.js.map": "/react-portfolio-landing/static/js/main.e5985c06.js.map"
   },
   "entrypoints": [
-    "static/css/main.9f880ab1.css",
-    "static/js/main.9e823570.js"
+    "static/css/main.10e76f36.css",
+    "static/js/main.e5985c06.js"
   ]
 }
