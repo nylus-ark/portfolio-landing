@@ -1,7 +1,18 @@
 @import "../../styles/variables.css";
 
 .portfolio {
-    background-color: var(--color-white);
     width: 100%;
     min-height: 900px;
+}
+
+.portfolio-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    width: 100%;
+}
+
+.portfolio-header {
+    max-width: 438px;
+    margin: 0 auto 50px;
 }

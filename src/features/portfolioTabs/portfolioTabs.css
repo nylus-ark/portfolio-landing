@@ -1,0 +1,22 @@
+.portfolio-tabs {
+    display: flex;
+    justify-content: center;
+    gap: 37px;
+    margin: 0 0 50px;
+}
+
+.portfolio-tab {
+    color: var(--color-black);
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: color 0.3s ease;
+
+    &.active {
+        color: var(--color-yellow);
+    }
+
+    &:hover {
+        color: var(--color-yellow);
+    }
+}
