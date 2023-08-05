@@ -18,6 +18,7 @@
 .progress-bar {
     width: 100%;
     border: 1px solid var(--color-yellow);
+    background-color: var(--color-white);
     appearance: none;
     -webkit-appearance: none;
     border-radius: 3px;
@@ -30,9 +31,15 @@
 
     &::-webkit-progress-value {
         background-color: var(--color-yellow);
+        transition: width 1s;
     }
 
     &::-moz-progress-bar {
         background-color: var(--color-yellow);
     }
+}
+
+.progress-bar::-moz-progress-bar {
+    background-color: var(--color-yellow);
+    transition: width 1s;
 }
