@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-portfolio-landing/static/css/main.10e76f36.css",
-    "main.js": "/react-portfolio-landing/static/js/main.e5985c06.js",
+    "main.css": "/react-portfolio-landing/static/css/main.5c8233db.css",
+    "main.js": "/react-portfolio-landing/static/js/main.85c9aec5.js",
     "static/media/avatar-full@2x.png": "/react-portfolio-landing/static/media/avatar-full@2x.5dddbfd2744f1aa8b572.png",
     "static/media/avatar-full@2x.webp": "/react-portfolio-landing/static/media/avatar-full@2x.d256c5a6952a29a75c86.webp",
     "static/media/inter-bold.woff": "/react-portfolio-landing/static/media/inter-bold.1e547cd04bfe2dae1f98.woff",
@@ -40,11 +40,11 @@
     "static/media/arrow.svg": "/react-portfolio-landing/static/media/arrow.13ad1d7007fd6815ac86978d7f533ab8.svg",
     "static/media/arrow-hover.svg": "/react-portfolio-landing/static/media/arrow-hover.36dc3acaff28551df432c562b6b7640f.svg",
     "static/media/squares.svg": "/react-portfolio-landing/static/media/squares.1a072a15fe270f857e4fcb73264fe1bc.svg",
-    "main.10e76f36.css.map": "/react-portfolio-landing/static/css/main.10e76f36.css.map",
-    "main.e5985c06.js.map": "/react-portfolio-landing/static/js/main.e5985c06.js.map"
+    "main.5c8233db.css.map": "/react-portfolio-landing/static/css/main.5c8233db.css.map",
+    "main.85c9aec5.js.map": "/react-portfolio-landing/static/js/main.85c9aec5.js.map"
   },
   "entrypoints": [
-    "static/css/main.10e76f36.css",
-    "static/js/main.e5985c06.js"
+    "static/css/main.5c8233db.css",
+    "static/js/main.85c9aec5.js"
   ]
 }
